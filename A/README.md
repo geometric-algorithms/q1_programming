@@ -32,27 +32,27 @@ pip install matplotlib
    First, clone the repository to your local machine using Git:
    
    ```bash
-   git clone https://github.com/yourusername/repository-name.git
+   git clone https://github.com/geometric-algorithms/q1_programming.git
    ```
 
 2. **Navigating to the Project Directory**:
    After cloning the repository, navigate to the project directory:
    
    ```bash
-   cd repository-name
+   cd A
    ```
 
 3. **Running the Code**:
    To run the main convex hull algorithm, execute the following command:
 
    ```bash
-   python convex_hull.py <list_of_coordinates>
+   python3 a.py <list_of_coordinates>
    ```
 
    For example:
 
    ```bash
-   python a.py 1.0 1.0 2.0 3.0 4.0 2.0 5.0 1.0
+   python3 a.py 1.0 1.0 2.0 3.0 4.0 2.0 5.0 1.0
    ```
 
    This will compute the convex hull for the points `(1.0, 1.0)`, `(2.0, 3.0)`, `(4.0, 2.0)`, and `(5.0, 1.0)`.
@@ -63,23 +63,11 @@ pip install matplotlib
    You can use the `test.sh` script to test the convex hull algorithm with predefined sets of points. To run the script, execute the following command:
 
    ```bash
-   bash test.sh or "./test.sh"
+   ./test.sh
    ```
 
    This will run the algorithm on the points specified in the script, and you’ll see the output and plot for each test case.
 
-5. **Modifying and Extending the Code**:
-   You can modify the code to handle different input formats or improve the functionality. Make sure to follow these steps if you make changes:
-
-   - **Testing**: After making modifications, test the code to ensure it still works as expected.
-   - **Adding New Features**: Feel free to add new features or optimize the algorithm. Be sure to document your changes clearly in the code.
-   - **Committing Changes**: After making your changes, commit them to your local repository and push them to GitHub using the following commands:
-
-     ```bash
-     git add .
-     git commit -m "Your commit message"
-     git push origin main
-     ```
 
 ## Output
 
