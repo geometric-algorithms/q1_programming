@@ -52,7 +52,7 @@ pip install matplotlib
    For example:
 
    ```bash
-   python convex_hull.py 1.0 1.0 2.0 3.0 4.0 2.0 5.0 1.0
+   python a.py 1.0 1.0 2.0 3.0 4.0 2.0 5.0 1.0
    ```
 
    This will compute the convex hull for the points `(1.0, 1.0)`, `(2.0, 3.0)`, `(4.0, 2.0)`, and `(5.0, 1.0)`.
