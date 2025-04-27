@@ -5,7 +5,7 @@ This repository implements the **Chan's Algorithm** for finding the convex hull 
 
 ## Files in this Repository
 
-- **convex_hull.py**: The main code implementation for Chan's Algorithm and other related functions like Graham's Scan and binary search for tangent finding.
+- **a.py**: The main code implementation for Chan's Algorithm and other related functions like Graham's Scan and binary search for tangent finding.
 - **test.sh**: A shell script that tests the convex hull algorithm with a set of points.
 - **README.md**: This file, providing an overview of the project and usage instructions.
 
