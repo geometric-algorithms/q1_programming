@@ -6,7 +6,7 @@ This repository implements a **Dynamic Convex Hull** using a **segment tree** in
 
 ## Files in this Repository
 
-- **convex_hull.py**  
+- **b.py**  
   Main Python script implementing the dynamic convex hull data structure:
   - `insert(point)`  
   - `delete(point)`  
@@ -15,12 +15,7 @@ This repository implements a **Dynamic Convex Hull** using a **segment tree** in
   - Command-line interactive menu
 
 - **test.sh**  
-  Bash script to run `convex_hull.py` on a predefined set of points.
-
-- **README.md**  
-  This file: project overview, installation, usage, development guidelines.
-
----
+  Bash script to run `b.py` on a predefined set of points.
 
 ## Features
 
@@ -41,6 +36,7 @@ Install dependencies:
 
 ```bash
 pip install matplotlib
+```
 
 
 ## Handling the Code
@@ -56,25 +52,24 @@ pip install matplotlib
    After cloning the repository, navigate to the project directory:
    
    ```bash
-   cd A
+   cd B
    ```
 
 3. **Running the Code**:
    To run the main convex hull algorithm, execute the following command:
 
    ```bash
-   python3 a.py <list_of_coordinates>
+   python3 b.py <list_of_coordinates>
    ```
 
    For example:
 
    ```bash
-   python3 a.py 1.0 1.0 2.0 3.0 4.0 2.0 5.0 1.0
+   python3 b.py 1.0 1.0 2.0 3.0 4.0 2.0 5.0 1.0
    ```
 
-   This will compute the convex hull for the points `(1.0, 1.0)`, `(2.0, 3.0)`, `(4.0, 2.0)`, and `(5.0, 1.0)`.
+   This will compute the convex hull for the points `(1.0, 1.0)`, `(2.0, 3.0)`, `(4.0, 2.0)`, and `(5.0, 1.0)` and in terminal Menu will be popped up.n menu, enter the choice and results can be shown.
 
-   The script will display a plot with the points and the convex hull in **matplotlib** and print the convex hull points in clockwise order.
 
 4. **Testing the Code**:
    You can use the `test.sh` script to test the convex hull algorithm with predefined sets of points. To run the script, execute the following command:
@@ -85,7 +80,3 @@ pip install matplotlib
 
    This will run the algorithm on the points specified in the script, and you’ll see the output and plot for each test case.
 
-
-## Output
-
-The script will output the points of the convex hull in clockwise order. It will also display a plot of the points and the convex hull using `matplotlib`.
